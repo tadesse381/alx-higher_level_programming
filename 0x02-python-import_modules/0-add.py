@@ -1,10 +1,12 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+from add_0 import add
 
-# Define function to add two numbers
-def add(a, b):
-    return a + b
-
-# Print the result of adding two numbers
 if __name__ == "__main__":
-    x, y = 1, 2
-    print(f"{x} + {y} = {add(x, y)}")
+    """
+
+    Print sum
+
+    """
+    a = 1
+    b = 2
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
